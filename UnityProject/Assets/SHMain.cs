@@ -7,6 +7,8 @@ using System.Runtime.InteropServices;
 
 public class SHMain : MonoBehaviour
 {
+    static SHMain _instance;
+
 #if !UNITY_EDITOR && UNITY_IOS
     [DllImport("__Internal")]
     private static extern void iOSPluginHelloWorld(string strMessage);
@@ -14,10 +16,18 @@ public class SHMain : MonoBehaviour
 
     void Start ()
     {
+        if (null == _instance)
+            _instance = this;
+
         UnityEngine.Debug.Log("Unity Start Function in MainScript");
 
 #if !UNITY_EDITOR && UNITY_IOS
         iOSPluginHelloWorld("Hello~!! iOSPlugin");
 #endif
+    }
+
+    public void ReciveFunction(string strLog)
+    {
+        UnityEngine.Debug.LogFormat("Unity ReciveFunction in MainScript({0})", strLog);
     }
 }

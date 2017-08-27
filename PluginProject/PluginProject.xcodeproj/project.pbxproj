@@ -7,31 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09D936381F51B73300B09763 /* iOSPluginProject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 09D936371F51B73300B09763 /* iOSPluginProject.mm */; };
-		09D936391F51B73300B09763 /* iOSPluginProject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09D936361F51B73300B09763 /* iOSPluginProject.h */; };
+		09E5336E1F52974900ACA4F5 /* PluginProject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 09E5336D1F52974900ACA4F5 /* PluginProject.mm */; };
+		09E5336F1F52974900ACA4F5 /* PluginProject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09E5336C1F52974900ACA4F5 /* PluginProject.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		09D936311F51B73300B09763 /* CopyFiles */ = {
+		09E533671F52974900ACA4F5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				09D936391F51B73300B09763 /* iOSPluginProject.h in CopyFiles */,
+				09E5336F1F52974900ACA4F5 /* PluginProject.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		09D936331F51B73300B09763 /* libiOSPluginProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiOSPluginProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		09D936361F51B73300B09763 /* iOSPluginProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSPluginProject.h; sourceTree = "<group>"; };
-		09D936371F51B73300B09763 /* iOSPluginProject.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = iOSPluginProject.mm; sourceTree = "<group>"; };
+		09E533691F52974900ACA4F5 /* libPluginProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPluginProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E5336C1F52974900ACA4F5 /* PluginProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluginProject.h; sourceTree = "<group>"; };
+		09E5336D1F52974900ACA4F5 /* PluginProject.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PluginProject.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		09D936301F51B73300B09763 /* Frameworks */ = {
+		09E533661F52974900ACA4F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,97 +41,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09D9362A1F51B73300B09763 = {
+		09E533601F52974900ACA4F5 = {
 			isa = PBXGroup;
 			children = (
-				09D936351F51B73300B09763 /* iOSPluginProject */,
-				09D936341F51B73300B09763 /* Products */,
+				09E5336B1F52974900ACA4F5 /* PluginProject */,
+				09E5336A1F52974900ACA4F5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		09D936341F51B73300B09763 /* Products */ = {
+		09E5336A1F52974900ACA4F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09D936331F51B73300B09763 /* libiOSPluginProject.a */,
+				09E533691F52974900ACA4F5 /* libPluginProject.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		09D936351F51B73300B09763 /* iOSPluginProject */ = {
+		09E5336B1F52974900ACA4F5 /* PluginProject */ = {
 			isa = PBXGroup;
 			children = (
-				09D936361F51B73300B09763 /* iOSPluginProject.h */,
-				09D936371F51B73300B09763 /* iOSPluginProject.mm */,
+				09E5336C1F52974900ACA4F5 /* PluginProject.h */,
+				09E5336D1F52974900ACA4F5 /* PluginProject.mm */,
 			);
-			path = iOSPluginProject;
+			path = PluginProject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		09D936321F51B73300B09763 /* iOSPluginProject */ = {
+		09E533681F52974900ACA4F5 /* PluginProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09D9363C1F51B73300B09763 /* Build configuration list for PBXNativeTarget "iOSPluginProject" */;
+			buildConfigurationList = 09E533721F52974900ACA4F5 /* Build configuration list for PBXNativeTarget "PluginProject" */;
 			buildPhases = (
-				09D9362F1F51B73300B09763 /* Sources */,
-				09D936301F51B73300B09763 /* Frameworks */,
-				09D936311F51B73300B09763 /* CopyFiles */,
+				09E533651F52974900ACA4F5 /* Sources */,
+				09E533661F52974900ACA4F5 /* Frameworks */,
+				09E533671F52974900ACA4F5 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = iOSPluginProject;
-			productName = iOSPluginProject;
-			productReference = 09D936331F51B73300B09763 /* libiOSPluginProject.a */;
+			name = PluginProject;
+			productName = PluginProject;
+			productReference = 09E533691F52974900ACA4F5 /* libPluginProject.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		09D9362B1F51B73300B09763 /* Project object */ = {
+		09E533611F52974900ACA4F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "이상호";
 				TargetAttributes = {
-					09D936321F51B73300B09763 = {
+					09E533681F52974900ACA4F5 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3E5WMD282W;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 09D9362E1F51B73300B09763 /* Build configuration list for PBXProject "iOSPluginProject" */;
+			buildConfigurationList = 09E533641F52974900ACA4F5 /* Build configuration list for PBXProject "PluginProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 09D9362A1F51B73300B09763;
-			productRefGroup = 09D936341F51B73300B09763 /* Products */;
+			mainGroup = 09E533601F52974900ACA4F5;
+			productRefGroup = 09E5336A1F52974900ACA4F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				09D936321F51B73300B09763 /* iOSPluginProject */,
+				09E533681F52974900ACA4F5 /* PluginProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		09D9362F1F51B73300B09763 /* Sources */ = {
+		09E533651F52974900ACA4F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09D936381F51B73300B09763 /* iOSPluginProject.mm in Sources */,
+				09E5336E1F52974900ACA4F5 /* PluginProject.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		09D9363A1F51B73300B09763 /* Debug */ = {
+		09E533701F52974900ACA4F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -171,14 +171,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		09D9363B1F51B73300B09763 /* Release */ = {
+		09E533711F52974900ACA4F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,14 +212,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		09D9363D1F51B73300B09763 /* Debug */ = {
+		09E533731F52974900ACA4F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 3E5WMD282W;
@@ -229,7 +229,7 @@
 			};
 			name = Debug;
 		};
-		09D9363E1F51B73300B09763 /* Release */ = {
+		09E533741F52974900ACA4F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 3E5WMD282W;
@@ -242,24 +242,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09D9362E1F51B73300B09763 /* Build configuration list for PBXProject "iOSPluginProject" */ = {
+		09E533641F52974900ACA4F5 /* Build configuration list for PBXProject "PluginProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09D9363A1F51B73300B09763 /* Debug */,
-				09D9363B1F51B73300B09763 /* Release */,
+				09E533701F52974900ACA4F5 /* Debug */,
+				09E533711F52974900ACA4F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09D9363C1F51B73300B09763 /* Build configuration list for PBXNativeTarget "iOSPluginProject" */ = {
+		09E533721F52974900ACA4F5 /* Build configuration list for PBXNativeTarget "PluginProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				09D9363D1F51B73300B09763 /* Debug */,
-				09D9363E1F51B73300B09763 /* Release */,
+				09E533731F52974900ACA4F5 /* Debug */,
+				09E533741F52974900ACA4F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 09D9362B1F51B73300B09763 /* Project object */;
+	rootObject = 09E533611F52974900ACA4F5 /* Project object */;
 }

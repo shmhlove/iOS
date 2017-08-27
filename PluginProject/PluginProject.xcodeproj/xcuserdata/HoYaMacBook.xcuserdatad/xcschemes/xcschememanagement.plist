@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>iOSPluginProject.xcscheme</key>
+		<key>PluginProject.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>09D936321F51B73300B09763</key>
+		<key>09E533681F52974900ACA4F5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

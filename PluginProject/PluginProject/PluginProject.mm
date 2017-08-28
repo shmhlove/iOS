@@ -7,16 +7,15 @@
 //
 
 #import "PluginProject.h"
+#import "UnityBridge.h"
+#import "NcLog.h"
 
-@implementation PluginProject
-
-@end
-
-extern "C"
+FOUNDATION_EXPORT
+void iOSPluginHelloWorld(const char *strMessage)
 {
-    void iOSPluginHelloWorld()
-    {
-        NSLog(@"iOSPluginHelloWorld in iOS");
-        //UnitySendMessage("SHMain", "ReciveFunction", "Send To iOS");
-    }
+    NcLogD(@"iOSPluginHelloWorld in iOS");
+    
+#if !(TARGET_IPHONE_SIMULATOR)
+    UnitySendMessage("SHMain", "ReciveFunction", strMessage);
+#endif
 }

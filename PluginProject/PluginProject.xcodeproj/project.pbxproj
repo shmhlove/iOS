@@ -8,19 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		09E5336E1F52974900ACA4F5 /* PluginProject.mm in Sources */ = {isa = PBXBuildFile; fileRef = 09E5336D1F52974900ACA4F5 /* PluginProject.mm */; };
-		09E5336F1F52974900ACA4F5 /* PluginProject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09E5336C1F52974900ACA4F5 /* PluginProject.h */; };
+		09E5336F1F52974900ACA4F5 /* PluginProject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 09E5336C1F52974900ACA4F5 /* PluginProject.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		88E5182B1F53D90500DF1804 /* NcLog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 88E5182A1F53D10500DF1804 /* NcLog.h */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		88E5182D1F53DD1C00DF1804 /* NcLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 88E5182C1F53DD1C00DF1804 /* NcLog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		09E533671F52974900ACA4F5 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
 				09E5336F1F52974900ACA4F5 /* PluginProject.h in CopyFiles */,
+				88E5182B1F53D90500DF1804 /* NcLog.h in CopyFiles */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -28,6 +31,9 @@
 		09E533691F52974900ACA4F5 /* libPluginProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPluginProject.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E5336C1F52974900ACA4F5 /* PluginProject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluginProject.h; sourceTree = "<group>"; };
 		09E5336D1F52974900ACA4F5 /* PluginProject.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PluginProject.mm; sourceTree = "<group>"; };
+		88E518291F53C0A800DF1804 /* UnityBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnityBridge.h; sourceTree = "<group>"; };
+		88E5182A1F53D10500DF1804 /* NcLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NcLog.h; sourceTree = "<group>"; };
+		88E5182C1F53DD1C00DF1804 /* NcLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NcLog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 			children = (
 				09E5336C1F52974900ACA4F5 /* PluginProject.h */,
 				09E5336D1F52974900ACA4F5 /* PluginProject.mm */,
+				88E518291F53C0A800DF1804 /* UnityBridge.h */,
+				88E5182A1F53D10500DF1804 /* NcLog.h */,
+				88E5182C1F53DD1C00DF1804 /* NcLog.m */,
 			);
 			path = PluginProject;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09E5336E1F52974900ACA4F5 /* PluginProject.mm in Sources */,
+				88E5182D1F53DD1C00DF1804 /* NcLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
